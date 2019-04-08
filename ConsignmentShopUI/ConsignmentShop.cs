@@ -34,6 +34,22 @@ namespace ConsignmentShopUI
                 Price = 4.50M,
                 Owner = store.Vendors[0]
             });
+
+            store.Items.Add(new Item
+            {
+                Title = "A Tale of Two Cities",
+                Description = "A book about a revolution.",
+                Price = 3.80M,
+                Owner = store.Vendors[1]
+            });
+
+            store.Items.Add(new Item
+            {
+                Title = "Moby Dick",
+                Description = "A book about a whale.",
+                Price = 4.50M,
+                Owner = store.Vendors[1]
+            });
         }
     }
 }
