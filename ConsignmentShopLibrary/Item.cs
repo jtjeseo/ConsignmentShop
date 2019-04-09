@@ -15,6 +15,12 @@ namespace ConsignmentShopLibrary
         public Boolean PaymentDistributed { get; set; }
         public Vendor Owner { get; set; }
 
-
+        public string Display
+        {
+            get
+            {
+                return string.Format("{0} - ${1}", Title, Price);
+            }
+        }
     }
 }
